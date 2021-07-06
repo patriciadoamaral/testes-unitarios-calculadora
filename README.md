@@ -8,9 +8,9 @@ Demonstração de testes unitários com PHP
 
 ## Iniciando o Docker
 > docker-compose build
+
 > docker-compose up -d
 
 ## Alguns comandos necessários (dentro do container)
 Executar testes
-> cd api
 > ./vendor/bin/phpunit
